@@ -129,11 +129,15 @@ h6,
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #FFFFFF;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
     outline: none;
     transition: .5s;
+}
+
+.navbar{
+	background:#fff;
 }
 
 .bg-blue{
@@ -216,6 +220,11 @@ h6,
     .sticky-top.navbar-dark .navbar-brand h1 {
         color: #2d81fe;
     }
+}
+
+.logo-img{
+	width:22%;
+	padding: 10px 0px;
 }
 
 
@@ -324,6 +333,14 @@ h6,
 
 .service-item h4{
 	font-size:1.2rem;
+}
+
+#interests .service-item .service-icon{
+	background-color: #fffd6f;
+}
+
+#outcomes .service-item .service-icon{
+	background-color: lightgreen;
 }
 
 .service-item .service-icon {
