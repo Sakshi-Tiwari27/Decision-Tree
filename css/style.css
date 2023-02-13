@@ -327,7 +327,7 @@ h6,
 .service-item {
     position: relative;
     height: 250px;
-    padding: 0 30px;
+    padding: 0 15px;
     transition: .5s;
 }
 
@@ -336,11 +336,11 @@ h6,
 }
 
 #interests .service-item .service-icon{
-	background-color: #fffd6f;
+	background-color: red;
 }
 
 #outcomes .service-item .service-icon{
-	background-color: lightgreen;
+	background-color: rebeccapurple;
 }
 
 .service-item .service-icon {
@@ -413,7 +413,55 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+	
 }
+
+@media (max-width: 768px){
+	
+	button.navbar-toggler{
+		float:right;
+		margin-top:30px;
+	}
+	
+	.logo-img{
+		width:34%;
+	}
+	
+	.navbar-dark{
+		display:block !important;
+	}
+}
+
+@media (max-width:480px){
+	
+	button.navbar-toggler {
+    margin-top: 14px;
+}
+	
+}
+
+@media (max-width:1180px) and (min-width:820px){
+		button.navbar-toggler{
+		float:right;
+		margin-top:30px;
+	}
+	
+	.logo-img{
+		width:34%;
+	}
+	
+	.navbar-dark{
+		display:block;
+	}
+	
+}
+
+@media (max-width: 280px){
+button.navbar-toggler {
+    margin-top: 10px;
+}
+}
+
 
 .bg-contact{
 	background: #2d81fe;
