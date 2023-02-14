@@ -138,6 +138,7 @@ h6,
 
 .navbar{
 	background:#fff;
+	padding:0px 1rem;
 }
 
 .bg-blue{
@@ -259,6 +260,7 @@ h6,
 .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
+	display: none;
 }
 
 
@@ -435,7 +437,11 @@ h6,
 @media (max-width:480px){
 	
 	button.navbar-toggler {
-    margin-top: 14px;
+    margin-top: 21px;
+}
+	
+	.logo-img {
+    width: 40%;
 }
 	
 }
